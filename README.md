@@ -17,3 +17,39 @@
   - Prediction
 
 ---
+
+## 🧪 Sample Features Used
+
+- User ID
+- Retweet Count
+- Mention Count
+- Follower Count
+- Verified (0 or 1)
+
+---
+
+## 📦 Setup Instructions
+
+1. **Clone the repository**
+
+   ```bash
+   git clone https://github.com/KnightShan/BotDetect.git
+   cd BotDetect
+
+2. **Create a virtual environment (optional but recommended**  
+   Make sure you have Python 3.10+ installed. Then install required packages:
+   ```bash
+   python -m venv venv
+   venv\Scripts\activate  # For Windows
+   
+3. **Install dependencies**  
+
+   ```bash
+   pip install -r requirements.txt
+
+4. **Run the project**
+
+   ```bash
+   python main.py
+
+
